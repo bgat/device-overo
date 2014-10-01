@@ -10,9 +10,10 @@ Architecture: all
 Description: Root package for the Gumstix Overo
  This package is part of Pragmatux http://pragmatux.org
 Depends:
- mount-mmcblk0p1-as-boot,
- dtb-overo,
  board-overo,
+ dtb-overo,
+ bootscr-omap3,
+ mount-mmcblk0p1-as-boot,
  baseconfig-ptux,
  ptux-essential,
  systemd-sysv,
