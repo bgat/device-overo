@@ -7,9 +7,11 @@ Standards-Version: 3.9.3
 
 Package: device-overo
 Architecture: all
+Multi-Arch: foreign
 Description: Root package for the Gumstix Overo
  This package is part of Pragmatux http://pragmatux.org
 Depends:
+ default-root-sshkey-device,
  board-overo,
  dtb-overo,
  bootscr-omap3,
